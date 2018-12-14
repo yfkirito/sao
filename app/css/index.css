@@ -1,0 +1,303 @@
+/*
+* @Author: asu
+* @Date:   2018-12-05 09:24:21
+* @Last Modified by:   asu
+* @Last Modified time: 2018-12-14 11:03:52
+*/
+
+/* body,html{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+} */
+.top{
+	width: 100%;
+	height: 0.92rem;
+	padding: 0 0.24rem;
+	overflow: hidden;
+	display: flex;
+	 flex-wrap: nowrap;
+}
+.top p{
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.94rem;
+	color: #ff3685;
+	margin-left: 0.3rem;
+	font-style: italic;
+	font-weight: bold;
+}
+.top span{
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.94rem;
+	margin-left: 0.13rem;
+}
+.top span .icon-xiajiantou{
+	margin-left: 0.05rem;
+	line-height: 0.94rem;
+	font-size: 0.18rem;
+}
+.top input{
+	display: block;
+	background: #f5f5f5;
+	width: 3rem;
+	height: 0.62rem;
+	border-radius: 0.31rem;
+	margin-top: 0.15rem;
+	margin-left: 1rem;
+	border: none;
+	background-image: url('../img/sousuo.png');
+	background-repeat: no-repeat;
+	background-size: 0.2rem;
+	background-position: 0.3rem;
+	padding-left: 0.6rem;
+}
+.nav{
+	width: 100%;
+	height: 0.78rem;
+	display: flex;
+	padding: 0 0.24rem;
+}
+.nav h1{
+	font-size: 0.28rem;
+	line-height: 0.78rem;
+	margin-left: 0.56rem;
+	font-weight: normal;
+}
+.nav h1:nth-child(1){
+	margin: 0;
+}
+.nav .active{
+	font-size: 0.34rem;
+	font-weight: bold;
+}
+.nomar{
+	width: 100%;
+	height: 0.08rem;
+	padding: 0 0.24rem;
+}
+.nomar .nomars{
+	width: 0.44rem;
+	height: 0.06rem;
+	background: #ff4891;
+	border-radius: 0.04rem;
+	margin-left: 0.1rem;
+}
+.title{
+	width: 100%;
+	height: 0.84rem;
+	padding: 0 0.24rem;
+	display: flex;
+	align-items: center;
+}
+.title .cirle{
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #e6e6e6;
+	border-radius: 50%;
+	margin-left: 1.16rem;
+}
+.title .cirle:nth-child(1){
+	margin-left: 0.61rem;
+}
+.title h1{
+	font-size: 0.24rem;
+	color: #989898;
+	line-height: 0.84rem;
+	font-weight: normal;
+	margin-left: 0.05rem;
+}
+.vip{
+	width: 100%;
+	height: 1.76rem;
+	display: flex;
+	padding: 0 0.24rem;
+	flex-wrap: wrap;
+}
+.vip .square{
+	width: 1.04rem;
+	height: 1.04rem;
+	margin-left: 0.86rem;
+}
+.vip .square img{
+	width: 100%;
+	height: 100%;
+}
+.vip .square:nth-child(1){
+	margin-left: 0.16rem;
+}
+.vip h1{
+	font-size: 0.24rem;
+	font-weight: normal;
+}
+.vip h1:nth-child(5){
+	margin-left: 0.16rem;
+}
+.vip h1:nth-child(6){
+	margin-left: 0.8rem;
+}
+.vip h1:nth-child(7){
+	margin-left: 0.9rem;
+}
+.vip h1:nth-child(8){
+	margin-left: 0.9rem;
+}
+.advert{
+	width: 100%;
+	height: 1.92rem;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+
+}
+.advert .adv{
+	width: 3.38rem;
+	height: 1.6rem;
+	margin: 0 0.06rem;
+}
+.advert .adv img{
+	width: 100%;
+	height: 100%;
+}
+.sorts{
+	/* width: 100%; */
+	height: 3.24rem;
+	border-top: 2px solid #eeeeee;
+	margin: 0 0.24rem;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: .3rem;
+}
+.sorts .chart{
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-right: 0.74rem;
+	/* padding-bottom: 0.2rem; */
+}
+.sorts .chart:nth-child(5){
+	margin-right: 0;
+}
+.sorts .chart img{
+	width: 100%;
+	height: 100%;
+}
+.sorts .chart h1{
+	font-size: 0.22rem;
+	margin-left: 0.12rem;
+	font-weight: normal;
+}
+.heart{
+	width: 100%;
+	height: 14.24rem;
+}
+.heart .top{
+	width: 100%;
+	height: 1.8rem;
+	padding: 0;
+}
+.heart li{
+	width: 100%;
+	height: 3.11rem;
+	border-bottom: 2px solid #f0f0f0;
+	padding: 0 0.24rem;
+	display: flex;
+	align-items: center;
+}
+.heart li .nav{
+	width: 2.10rem;
+	height: 2.1rem;
+	background: url('../img/c1.png');
+	background-position: center;
+	background-size: 100%;
+}
+.heart li .navs{
+	width: 4.46rem;
+	height: 2.1rem;
+	margin-left: 0.3rem;
+}
+.heart li .navs p{
+	font-size: 0.4rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.heart li .navs .tow{
+	color: #8a8a8a;
+	font-size: 0.3rem;
+}
+.heart li .navs .three{
+	width: 100%;
+	height: 0.65rem;
+	margin-top: 0.35rem;
+	/* display: flex; */
+}
+.heart li .navs .fix{
+	width: 1.8rem;
+	height: 0.64rem;
+	float: left;
+}
+.heart li .navs .three h1{
+	font-size: 0.2rem;
+	font-weight: normal;
+}
+.heart li .navs .three h2{
+	font-size: 0.3rem;
+	font-weight: normal;
+	float: left;
+	color: #ff2f82;
+}
+.heart li .navs .fixs{
+	width: 1rem;
+	height: 1rem;
+	float: right;
+	text-align: center;
+	line-height: 0.5rem;
+}
+.icon-gouwuche2{
+	font-size: 0.8rem;
+	color: #ff4891;
+}
+.heart li .navs .four{
+	width: 0.88rem;
+	height: 0.33rem;
+	font-size: 0.2rem;
+	/* display: flex; */
+	float: right;
+	line-height: 0.33rem;
+	border: 1px solid #ffb5d3;
+	margin-top: 0.05rem;
+	color: #ff69a4;
+}
+.bottoms{
+	width: 100%;
+	height: 1.5rem;
+}
+.bottom{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	background: #ffffff;
+	border-top: 1px solid #e0e0e0;
+}
+.bottom .bots{
+	width: 25%;
+	height: 100%;
+	line-height: 0.45rem;
+	text-align: center;
+}
+.bottom .bots .iconfont{
+	font-size: 0.5rem;
+	color: #c6c6c6;
+}
+.bottom .bots:nth-child(1) .icon-yemian-copy-copy{
+	color: #fc74c1;
+}
+.bottom	.bots h1{
+	font-size: 0.2rem;
+	font-weight: normal;
+}.bottom .bots:nth-child(1) h1{
+	color: #fc74c1;
+}
